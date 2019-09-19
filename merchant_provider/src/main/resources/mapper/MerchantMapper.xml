@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 
+	通过namespace将mapper接口引入
+-->
+<mapper namespace="com.mr.merchant_provider.mapper.MerchantMapper">
+
+    <insert id="saveMerchant" parameterType="com.mr.take_domain_out.domain.Merchant">
+        insert into t_merchant values(#{mid},#{shopName},#{mdate},#{mcode},#{mname},#{mphone},#{murl});
+    </insert>
+
+</mapper>

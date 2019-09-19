@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/merchant_provider/merchant_provider.iml" filepath="$PROJECT_DIR$/merchant_provider/merchant_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/takeOut.iml" filepath="$PROJECT_DIR$/.idea/takeOut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/take_consumer_out/take_consumer_out.iml" filepath="$PROJECT_DIR$/take_consumer_out/take_consumer_out.iml" />
+    </modules>
+  </component>
+</project>
